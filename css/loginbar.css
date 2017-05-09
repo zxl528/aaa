@@ -1,0 +1,315 @@
+/*公共样式*/
+html {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  background: #fafafa;
+  font-size: 14px;
+  color: #000000;
+  font-family: "宋体", "黑体";
+}
+div,
+form,
+img,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p,
+span {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+table,
+tr,
+td {
+  word-break: break-all;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td {
+  vertical-align: middle;
+}
+input {
+  outline: none;
+  font-family: "宋体", "黑体";
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #ff9900;
+  text-decoration: none;
+  outline: none;
+}
+em,
+i {
+  font-style: normal;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mt_05 {
+  margin-top: 5px;
+}
+.mt_10 {
+  margin-top: 10px!important;
+}
+.mt_15 {
+  margin-top: 15px!important;
+}
+.mt_20 {
+  margin-top: 20px;
+}
+.mt_25 {
+  margin-top: 25px!important;
+}
+.mt_30 {
+  margin-top: 30px!important;
+}
+.mt_40 {
+  margin-top: 40px!important;
+}
+.mt_45 {
+  margin-top: 45px;
+}
+.mt_50 {
+  margin-top: 50px;
+}
+.mt_60 {
+  margin-top: 60px!important;
+}
+.mt_80 {
+  margin-top: 80px!important;
+}
+.mt_120 {
+  margin-top: 120px!important;
+}
+.mr_10 {
+  margin-right: 10px;
+  _display: inline;
+}
+.mr_20 {
+  margin-right: 20px;
+  _display: inline;
+}
+.ml_10 {
+  margin-left: 10px;
+  _display: inline;
+}
+.ml_20 {
+  margin-left: 20px;
+  _display: inline;
+}
+.pt_40 {
+  padding-top: 40px;
+}
+.pb_10 {
+  padding-bottom: 10px;
+}
+.pb_20 {
+  padding-bottom: 20px;
+}
+.pl_10 {
+  padding-left: 10px;
+}
+.pr_10 {
+  padding-right: 10px;
+}
+.w_100bfb {
+  width: 100%;
+  margin: 0px auto;
+}
+.w_100bfb01 {
+  width: 100%;
+  float: left;
+}
+.fon_12 {
+  font-size: 12px;
+}
+.fon_16 {
+  font-size: 16px;
+}
+.fon_18 {
+  font-size: 18px;
+}
+.pointer {
+  cursor: pointer;
+}
+.none_01 {
+  display: none;
+}
+.dy_dd {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.jzxx {
+  text-align: center;
+}
+.del_x {
+  text-decoration: line-through;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.w_1226 {
+  width: 1226px;
+  margin: 0px auto;
+}
+/*公共样式*/
+.heibj {
+  background: #14212A;
+}
+.banner {
+  position: relative;
+}
+.denglu {
+  width: 400px;
+  min-height: 524px;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-size: 14px;
+  background: white;
+  position: absolute;
+  top: 32px;
+  right: 0px;
+}
+.denglu1 {
+  padding: 27px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #e0e0e0;
+}
+.denglu1 span {
+  width: 1px;
+  height: 24px;
+  margin: 0 35px 0 42px;
+  border: 1px solid #e0e0e0;
+}
+.denglu1 li {
+  display: inline-block;
+}
+.inp {
+  text-align: center;
+}
+.inp input {
+  width: 306px;
+  height: 22px;
+  line-height: 22px;
+  padding: 13px 16px 13px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #808080;
+}
+.liji {
+  width: 338px;
+  height: 50px;
+  line-height: 50px;
+  background: #f56600;
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.liji a {
+  color: white;
+}
+.denglu2 {
+  padding: 0 9px 0 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+.denglu2 span {
+  width: 1px;
+  height: 24px;
+  margin: 0 10px 0 15px;
+  border: 1px solid #e0e0e0;
+}
+.denglu2 li {
+  display: inline-block;
+}
+.denglu2 li a {
+  color: #999;
+}
+.denglu2 li a:hover {
+  color: #f56600;
+}
+.denglu3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  text-align: center;
+  margin: 0px 30px;
+  border: 0px;
+  border-top: 1px solid #e0e0e0;
+}
+.denglu4 {
+  text-align: center;
+}
+.denglu4 li {
+  display: inline-block;
+  cursor: pointer;
+}
+.foot {
+  color: #2d2d2d;
+  font-size: 16px;
+}
+.foot ul {
+  text-align: center;
+}
+.foot ul li {
+  display: inline-block;
+  border-right: 1px solid #2d2d2d;
+  padding: 0 15px 0 10px;
+}
+.foot ul li a {
+  color: #2d2d2d;
+}
+.foot ul li a:hover {
+  color: #f56600;
+}
+.foot ul li:last-child {
+  border: none;
+}
